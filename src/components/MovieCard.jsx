@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 function MovieCard({ movie, addMovieToList, removeMovie }) {
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card className="d-block m-auto mt-4" style={{ width: "18rem" }}>
       <a
         href={`https://www.imdb.com/title/${movie.imdbID}/`}
         target="_blank"

@@ -1,0 +1,43 @@
+/* MovieList.css */
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+/* Responsive Styles */
+
+/* For tablets and small desktops (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* For tablets in portrait mode and small phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
+
+/* For small phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,126 @@
+/* MovieCard.css */
+
+.card {
+    
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  transition: opacity 0.3s ease;
+}
+
+.card-img-top:hover {
+  opacity: 0.8;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.card-text div {
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Styles */
+
+/* For tablets and small desktops (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .card-title {
+    font-size: 1.125rem;
+  }
+
+  .card-text div {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.875rem;
+  }
+}
+
+/* For tablets in portrait mode and small phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text div {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 0.75rem;
+  }
+}
+
+/* For small phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .card-title {
+    font-size: 0.875rem;
+  }
+
+  .card-text div {
+    font-size: 0.7rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+  }
+}

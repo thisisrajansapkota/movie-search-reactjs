@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import MovieCard from "./MovieCard";
+import './SearchForm.css'
 import axios from "axios";
 import { getRandomMovieName } from "../utils";
+
 const MOVIE_URL = "https://www.omdbapi.com/?apikey=66aecd64&t=";
 
 function SearchForm({ addMovieToList }) {

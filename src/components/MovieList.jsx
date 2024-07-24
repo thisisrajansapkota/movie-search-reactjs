@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 import { Button, ButtonGroup } from "react-bootstrap";
+import './MovieList.css';
 
 function MovieList({ movieList, removeFromMovieList }) {
   const [filteredList, setFilteredList] = useState([]);
